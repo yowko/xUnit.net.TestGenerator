@@ -39,11 +39,11 @@ namespace xUnit.net.TestGenerator
                 throw new ArgumentNullException(nameof(sourceMethod));
 
             TraceLogger.LogInfo("xUnitSolutionManager.OnUnitTestProjectCreated: Adding reference to NUnit assemblies through nuget.");
-            
+
             base.OnUnitTestProjectCreated(unitTestProject, sourceMethod);
 
-            this.EnsureNuGetReference(unitTestProject, "xunit", "2.2.0");
-            this.EnsureNuGetReference(unitTestProject, "xunit.runner.visualstudio","2.2.0");
+            this.EnsureNuGetReference(unitTestProject, "xunit", null);
+            this.EnsureNuGetReference(unitTestProject, "xunit.runner.visualstudio", null);
 
 
             var vsp = unitTestProject.Object as VSProject2;
