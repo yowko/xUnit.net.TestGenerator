@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="xUnit.net.TestGenerator.Yowko Tsai.d8c62f16-e57a-4835-bcff-70f2ce89b526" Version="1.2" Language="en-US" Publisher="Yowko Tsai" />
+        <Identity Id="xUnit.net.TestGenerator.Yowko Tsai.d8c62f16-e57a-4835-bcff-70f2ce89b526" Version="1.3" Language="en-US" Publisher="Yowko Tsai" />
         <DisplayName>xUnit.net.TestGenerator</DisplayName>
-        <Description xml:space="preserve">xUnit.net Test Generator extensions for Visual Studio 2017.
+        <Description xml:space="preserve">xUnit.net Test Generator extensions for Visual Studio 2017 and Visual Studio 2019.
 Creates Unit tests with xUnit.net 2.0 framework.
-Works on Visual Studio 2017. </Description>
+Works on Visual Studio 2017 and Visual Studio 2019. </Description>
         <MoreInfo>https://github.com/yowko/xUnit.net.TestGenerator</MoreInfo>
         <License>license.txt</License>
         <Icon>xUnit.png</Icon>
@@ -24,6 +24,6 @@ Works on Visual Studio 2017. </Description>
         <Asset Type="Microsoft.VisualStudio.TestGenerationExtension" d:Source="Project" d:ProjectName="CreateUnitTests.xUnit" Path="|CreateUnitTests.xUnit|" />
     </Assets>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
 </PackageManifest>
