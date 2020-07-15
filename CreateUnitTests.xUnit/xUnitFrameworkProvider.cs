@@ -96,7 +96,8 @@ namespace xUnit.net.TestGenerator
         public override bool IsTestableProject(Project project)
         {
             // Base IsTestableProject filters C# and VB projects.
-            if (!base.IsTestableProject(project))
+            //if (!base.IsTestableProject(project))
+            if (!(project.Kind == PrjKind.prjKindCSharpProject || project.Kind == PrjKind.prjKindVBProject))
             {
                 return false;
             }

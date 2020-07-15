@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="xUnit.net.TestGenerator.Yowko Tsai.d8c62f16-e57a-4835-bcff-70f2ce89b526" Version="1.4" Language="en-US" Publisher="Yowko Tsai" />
+        <Identity Id="xUnit.net.TestGenerator.Yowko Tsai.d8c62f16-e57a-4835-bcff-70f2ce89b526" Version="1.5" Language="en-US" Publisher="Yowko Tsai" />
         <DisplayName>xUnit.net.TestGenerator</DisplayName>
         <Description xml:space="preserve">xUnit.net Test Generator extensions for Visual Studio 2017 and Visual Studio 2019.
 Creates Unit tests with xUnit.net 2.0 framework.
