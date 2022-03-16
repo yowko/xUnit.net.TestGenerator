@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestPlatform.TestGeneration.Data;
 using Microsoft.VisualStudio.TestPlatform.TestGeneration.Model;
 using System.ComponentModel.Composition;
 using EnvDTE;
-using static VSLangProj.PrjKind;
+//using static VSLangProj.PrjKind;
 using System.Linq;
 using VSLangProj80;
 using VSLangProj;
@@ -81,7 +81,7 @@ namespace xUnit.net.TestGenerator
             result = base.IsTestProject(project);
             if (!result)
             {
-                if (project.Kind == prjKindCSharpProject || project.Kind == prjKindVBProject)
+                if (project.Kind == PrjKind.prjKindCSharpProject || project.Kind == PrjKind.prjKindVBProject)
                     result = ProjectHasReference(project, "xunit.core");
             }
 
